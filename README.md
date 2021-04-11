@@ -10,7 +10,8 @@ I have been working with a data scientist for the past week and we have been bui
   * **RandomOverSampler() AKA Naive Random Oversampling**
     * Balanced Accuracy Score: **64.4%**
     * Precision: **99%**
-    * Recall: **64%**
+    * Recall: **67%**
+ 
  ![graphic](Resources/ros.ac.png)
  ![graphic](Resources/ros.ps.rs.png)
  ![graphic](Resources/ros.cm.png)
@@ -19,6 +20,7 @@ I have been working with a data scientist for the past week and we have been bui
     * Balanced Accuracy Score: **64.8%**
     * Precision: **99%**
     * Recall: **64%**
+
 ![graphic](Resources/smote.as.png)
 ![graphic](Resources/smote.ps.rs.png)
 ![graphic](Resources/smote.cm.png)
@@ -28,6 +30,7 @@ I have been working with a data scientist for the past week and we have been bui
     * Balanced Accuracy Score: **51.0%%**
     * Precision: **99%**
     * Recall: **44%**
+
 ![graphic](Resources/cc1.png)
 ![graphic](Resources/cc2.png)
 ![graphic](Resources/cc.cmpng)
@@ -37,6 +40,7 @@ I have been working with a data scientist for the past week and we have been bui
     * Balanced Accuracy Score: **63.6%**
     * Precision: **99%**
     * Recall: **58%**
+
 ![graphic](Resources/smoteenn.ac.png)
 ![graphic](Resources/smoteenn.ps.rs.png)
 ![graphic](Resources/smoteenn.df.png)
@@ -46,6 +50,7 @@ I have been working with a data scientist for the past week and we have been bui
     * Balanced Accuracy Score: **78.7%**
     * Precision: **99%**
     * Recall: **91%**
+
 ![graphic](Resources/brfc.ac.png)
 ![graphic](Resources/brfc.ps.rs.png) 
 ![graphic](Resources/brfc.cm.png) 
@@ -54,9 +59,10 @@ I have been working with a data scientist for the past week and we have been bui
     * Balanced Accuracy Score: **94.3%**
     * Precision: **99%**
     * Recall: **94%**
+
 ![graphic](Resources/eec.as.png)
 ![graphic](Resources/eec.ps.rs.png)
 ![graphic](Resources/eec.cm.png)
 ### Summary: 
 ---------------------------------------------------------------------------------
-The algorithms that we used to analyze our data all show weak precision when determining if an applicant is high risk. The Ensemble learning methods demonstrate a lot of improvement from the previously tested methods especially when it comes to recall of properly determining the high-risk applicants. The Easy Ensemble model still interprets almost 1000 applicants as high risk when they are actually low risk. Any banking institution would miss out on thousands of dollars in fees if they were to use any of these algorithms to determine eligibility. I would not recommend any of these algorithms.
+The algorithms that we used to analyze our data all show weak precision when determining if an applicant is high risk. The Ensemble learning methods demonstrate a lot of improvement from the previously tested methods especially when it comes to recall of properly determining the high-risk applicants. But even the method with the best accuracy score and best recall score,  the Easy Ensemble model, still predicts almost 1000 applicants as high risk when they are actually low risk. Any banking institution would miss out on thousands of dollars in fees if they were to use any of these algorithms to determine eligibility. I would not recommend any of these algorithms.
