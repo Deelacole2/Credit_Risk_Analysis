@@ -33,7 +33,7 @@ I have been working with a data scientist for the past week and we have been bui
 
 ![graphic](Resources/cc1.png)
 ![graphic](Resources/cc2.png)
-![graphic](Resources/cc.cmpng)
+![graphic](Resources/cc.cm.png)
 
 **Combination (Over and Under) Sampling**
   * **SMOTEENN()**
